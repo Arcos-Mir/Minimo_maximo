@@ -1,2 +1,2 @@
-# Minimo_maximo
+# Minmax
 minmax, establece el tamaño mínimo y máximo de una columna, la cual ayuda a que sea responsive
