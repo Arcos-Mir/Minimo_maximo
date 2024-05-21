@@ -1,0 +1,15 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    /*grid-template-columns: 200px 200px;*/
+    grid-template-columns: minmax(300px,1fr) 1fr;/* la funcion minmax()establece un tamaño minimo y maximo
+    de una columna el cual ayuda para que la pagina sea responsive y la columna que se establece unn tamaño minimo
+    ya no puede hacerse mas pequeña porque ya tiene dichjo tamaño, tambien se combina 
+    con mediaqueris y otros aspectos*/
+    /*grid-template-rows: minmax(150px,200px) 400px; cuando se le pone un texto puede
+    llegar a pasar que el texto se salga de la caja pork se le establecio un tamaño 
+    maximo de 200px para el alto de la fila es por eso que lo mas comun es utilizar
+    "auto" para que el texto del interior se acomde y el tamaño de la caja sea de
+    manera automatica*/
+    grid-template-rows: minmax(100px,auto) 400px;
+}
